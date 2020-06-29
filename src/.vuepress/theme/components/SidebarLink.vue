@@ -80,7 +80,7 @@ function renderChildren (h, children, path, route, maxDepth, depth = 1) {
   if (!children || depth > maxDepth) return null
   return h('ul', { class: 'sidebar-sub-headers' }, children.map(c => {
     const active = isActive(route, path + '#' + c.slug)
-    return h('li', { class: 'sidebar-sub-header' }, [
+    return h('li', { class: 'sidebar-sub-header.jpg' }, [
       renderLink(h, path + '#' + c.slug, c.title, active, c.level - 1),
       renderChildren(h, c.children, path, route, maxDepth, depth + 1)
     ])

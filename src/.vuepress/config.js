@@ -1,13 +1,13 @@
 let ogprefix = 'og: http://ogp.me/ns#'
 let title = 'Bar Casa Aquilino'
-let description = 'Bar Casa Aquilino - Comida casera y vinos tradicionales'
+let description = 'Bar Casa Aquilino - Comida casera, tapas, raciones, platos combinados y vinos tradicionales en A Guarda, Pontevedra - 986 62 72 64'
 let color = '#ffa31a'
 
 module.exports = {
   title: 'Casa Aquilino',
   description: 'Cocina casera y vinos tradicionales',
   themeConfig: {
-    logo: '/img/nav-bar/entucasa-logo.png',
+    logo: '/img/logo.png',
     docsDir: 'src',
     nav: [
       {text: 'Inicio', link: '/'},
@@ -86,7 +86,7 @@ module.exports = {
     ]
   ],
   head: [
-    ['link', {rel: 'icon', href: `/img/logos/favicon.png`}],
+    // ['link', {rel: 'icon', href: `/img/logos/favicon.png`}],
     ['meta', {name: 'theme-color', content: color}],
     ['meta', {prefix: ogprefix, property: 'og:locale', content: 'en_CA'}],
     ['meta', {prefix: ogprefix, property: 'og:title', content: title}],
