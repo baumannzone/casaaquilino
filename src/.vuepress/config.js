@@ -11,8 +11,8 @@ module.exports = {
     docsDir: 'src',
     nav: [
       {text: 'Inicio', link: '/'},
-      {text: 'Carta', link: '/delivery-menu/'},
-      {text: 'Contacto', link: '/catering/'}
+      {text: 'Carta', link: '/carta/'},
+      {text: 'Contacto', link: '/contacto/'}
     ],
     smoothScroll: true,
   },
