@@ -10,3 +10,6 @@
 <BaseContactData/>
 
 <BaseContactMap/>
+
+
+<BaseFooter/>
