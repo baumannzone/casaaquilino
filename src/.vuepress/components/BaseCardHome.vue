@@ -54,12 +54,13 @@
       width 100%
       margin 0 1rem 1rem
       padding-bottom 1rem
-      border-bottom 1px solid #eaeaea
 
       h4 {
-        margin-bottom 0
+        margin-bottom 10px
+        padding-bottom 10px
         font-size 1.1rem
         text-transform uppercase
+        border-bottom 1px dashed #eaeaea
       }
 
       p {

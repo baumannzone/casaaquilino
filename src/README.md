@@ -6,10 +6,11 @@
 
 <BaseCardHome/>
 
+![terraza-aquilino](/img/terraza-aquilino.jpg)
+
 ## Contacto
 <BaseContactData/>
 
 <BaseContactMap/>
-
 
 <BaseFooter/>

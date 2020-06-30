@@ -1,6 +1,5 @@
 <template>
-  <section>
-    <br>
+  <section class="contact">
     <p class="lead" itemprop="telephone">
       <b> 📱 Teléfono: </b> 986 62 72 64
     </p>
@@ -10,8 +9,16 @@
   </section>
 </template>
 
-<style scoped>
-.lead {
-  font-size: 1.2rem
-}
+<style lang="stylus" scoped>
+  .contact {
+    padding-bottom 2rem
+    .lead {
+      font-size: 1.2rem
+      margin-top 10px
+      margin-bottom 10px
+    }
+  }
+  .lead:first-child {
+    color: margin-bottom 10px
+  }
 </style>

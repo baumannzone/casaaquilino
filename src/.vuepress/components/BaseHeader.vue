@@ -14,7 +14,7 @@
     min-height 200px
     color white
     text-align center
-    background-image: url("/img/header.jpg");
+    background-image: url("/img/home-header.jpg");
     background-position 50%
     background-size cover
     padding 0 20px
