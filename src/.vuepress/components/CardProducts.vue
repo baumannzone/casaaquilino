@@ -20,12 +20,12 @@
         <div class="block-2">
           <div class="price-cont">
             <p class="price">
-              {{ product.price }} €
+              {{ product.price }}<small>€</small>
             </p>
           </div>
           <div class="price-cont-2" v-if="product.price2">
             <p class="price">
-              {{ product.price2 }} €
+              {{ product.price2 }}<small>€</small>
             </p>
           </div>
         </div>
@@ -86,6 +86,10 @@
       .block-2 {
         display flex
         justify-content flex-end
+      }
+
+      .price-cont {
+        width 84px
       }
 
       .price-cont-2 {
