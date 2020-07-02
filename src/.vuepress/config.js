@@ -10,9 +10,9 @@ module.exports = {
     logo: '/img/logo.png',
     docsDir: 'src',
     nav: [
-      {text: 'Inicio', link: '/'},
-      {text: 'Carta', link: '/carta/'},
-      {text: 'Contacto', link: '/contacto/'}
+      { text: 'Inicio', link: '/' },
+      { text: 'Carta', link: '/carta/' },
+      { text: 'Contacto', link: '/contacto/' }
     ],
     smoothScroll: true,
   },
@@ -87,13 +87,17 @@ module.exports = {
   ],
   head: [
     // ['link', {rel: 'icon', href: `/img/logos/favicon.png`}],
-    ['meta', {name: 'theme-color', content: color}],
-    ['meta', {prefix: ogprefix, property: 'og:locale', content: 'en_CA'}],
-    ['meta', {prefix: ogprefix, property: 'og:title', content: title}],
-    ['meta', {prefix: ogprefix, property: 'twitter:title', content: title}],
-    ['meta', {prefix: ogprefix, property: 'og:type', content: 'website'}],
-    ['meta', {prefix: ogprefix, property: 'og:url', content: 'https://entucasa.netlify.com'}],
-    ['meta', {prefix: ogprefix, property: 'og:description', content: description}],
-    ['meta', {prefix: ogprefix, property: 'og:image', content: 'https://entucasa.netlify.com/img/meta-tags/entucasa-logo-preview.png'}]
+    ['meta', { name: 'theme-color', content: color }],
+    ['meta', { prefix: ogprefix, property: 'og:locale', content: 'en_CA' }],
+    ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
+    ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
+    ['meta', { prefix: ogprefix, property: 'og:type', content: 'website' }],
+    ['meta', { prefix: ogprefix, property: 'og:url', content: 'https://casaaquilino.es' }],
+    ['meta', { prefix: ogprefix, property: 'og:description', content: description }],
+    ['meta', {
+      prefix: ogprefix,
+      property: 'og:image',
+      content: 'https://casaaquilino.es/img/og-image.jpg'
+    }]
   ],
 }
