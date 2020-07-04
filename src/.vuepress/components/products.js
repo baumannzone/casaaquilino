@@ -220,7 +220,7 @@ const entrantes = {
     {
       name: 'Ensalada Mixta',
       price: '4,50',
-      description: 'lechuga, tomate, cebolla, atún, aceituna, huevo cocido, maíz, espárragos'
+      description: 'Lechuga, tomate, cebolla, atún, aceituna, huevo cocido, maíz, espárragos'
     },
     {
       name: 'Sopa',
@@ -359,7 +359,93 @@ const bocadillos = {
       name: 'Completo',
       price: '4,50',
     },
-
+    {
+      name: 'Triple',
+      price: '5,50',
+    },
+    {
+      name: 'Calamares',
+      price: '4,50',
+    },
+    {
+      name: 'Pechuga',
+      price: '4,00',
+    },
+    {
+      name: 'Pechuga Mixto',
+      price: '4,50',
+    },
+    {
+      name: 'Pechuga Completo',
+      price: '5,50',
+    },
+    {
+      name: 'Pechuga Triple',
+      price: '6,00',
+    },
+    {
+      name: 'Pepito Ternera',
+      price: '4,50',
+    },
+    {
+      name: 'Hamburguesa',
+      price: '3,00',
+    },
+    {
+      name: 'Hamburguesa Completa',
+      price: '4,50',
+    },
+    {
+      name: 'Hamburguesa Triple',
+      price: '5,00',
+    },
+    {
+      name: 'Sándwich Mixto',
+      price: '3,00',
+    },
+    {
+      name: 'Sándwich Completo',
+      price: '3,60',
+    },
+    {
+      name: 'Sándwich Vegetal',
+      price: '3,60',
+      description: 'Queso, lechuga, tomate, cebolla, huevo cocido, espárragos'
+    },
+    {
+      name: 'Sándwich Triple',
+      price: '4,50',
+    },
+    {
+      name: 'Embutido',
+      price: '2,00',
+    },
+    {
+      name: 'Embutido Mixto',
+      price: '2,50',
+    },
+    {
+      name: 'Jamón Serrano',
+      price: '2,00',
+    },
+    {
+      name: 'Jamón Serrano Mixto',
+      price: '2,80',
+    }
+  ],
+  notes: [
+    {
+      name: 'Mixto',
+      description: 'con queso'
+    },
+    {
+      name: 'Completo',
+      description: 'Queso, lechuga, tomate, cebolla'
+    },
+    {
+      name: 'Triple',
+      description: 'Queso, lechuga, tomate, cebolla, huevo frito'
+    }
   ]
 }
 
@@ -372,7 +458,8 @@ const products = {
   entrantes,
   pescados,
   carnes,
-  arroces_y_pastas
+  arroces_y_pastas,
+  bocadillos
 }
 
 export default products
