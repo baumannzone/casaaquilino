@@ -88,7 +88,7 @@ module.exports = {
   head: [
     // ['link', {rel: 'icon', href: `/img/logos/favicon.png`}],
     ['meta', { name: 'theme-color', content: color }],
-    ['meta', { prefix: ogprefix, property: 'og:locale', content: 'en_CA' }],
+    ['meta', { prefix: ogprefix, property: 'og:locale', content: 'es_ES' }],
     ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
     ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
     ['meta', { prefix: ogprefix, property: 'og:type', content: 'website' }],
