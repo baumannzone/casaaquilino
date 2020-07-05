@@ -6,7 +6,7 @@
         <a href="tel:+34986627264">98 662 72 64</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/barcasaaquilino/" target="_blank">facebook.com/barcasaaquilino</a>
+        <a href="https://www.facebook.com/barcasaaquilino/" rel="noopener">facebook.com/barcasaaquilino</a>
       </li>
     </ul>
   </footer>
