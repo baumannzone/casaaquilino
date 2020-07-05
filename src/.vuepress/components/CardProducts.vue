@@ -94,6 +94,9 @@
     .product-item {
       display flex
       justify-content space-between
+      padding 10px
+      margin-bottom 10px
+      background-color #fafafa
 
       .product-name {
         margin 0
@@ -106,8 +109,12 @@
         }
       }
 
+
       .product-description {
         margin-top 0
+        margin-bottom 0
+        font-weight 300
+        color #777
       }
 
 
@@ -130,10 +137,8 @@
         font-size 20px
         text-align right
         margin-top 0
+        margin-bottom 0
       }
-    }
-
-    .product-notes {
     }
   }
 </style>

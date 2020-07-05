@@ -9,6 +9,7 @@ module.exports = {
   themeConfig: {
     logo: '/img/logo.png',
     docsDir: 'src',
+    search: false,
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Carta', link: '/carta/' },
@@ -23,8 +24,7 @@ module.exports = {
     [
       '@vuepress/google-analytics',
       {
-        'ga': ''
-        // UA-00000000-0
+        'ga': 'UA-60085396-4'
       }
     ],
     [
@@ -35,8 +35,7 @@ module.exports = {
         description: $page => $page.frontmatter.description,
         author: (_, $site) => $site.themeConfig.author,
         tags: $page => $page.frontmatter.tags,
-        twitterCard: _ => 'summary_large_image',
-        // type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+        twitterCard: _ => 'summary',
         url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
         image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
@@ -82,7 +81,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://casaaquilino.netlify.app/'
+        hostname: 'https://casaaquilino.es/'
       },
     ]
   ],
