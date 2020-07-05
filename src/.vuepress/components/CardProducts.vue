@@ -2,15 +2,16 @@
   <div class="card-products">
     <section class="product-group" v-for="(data, group) in products">
       <header>
-        <h1 class="product-group-title">{{ data.title }}</h1>
+        <h1 :id="data.id" class="product-group-title">{{ data.title }}</h1>
         <div class="col-1-2" v-if="data.col1 && data.col2">
           <h4>{{ data.col1 }}</h4>
           <h4>{{ data.col2 }}</h4>
         </div>
       </header>
-      <div class="product-item" v-for="product in data.products">
+      <div class="product-item" v-for="(product, idx) in data.products">
         <div class="block-1">
           <h3 class="product-name">
+            <small v-if="data.showIndex"> {{ idx + 1 }} - </small>
             {{ product.name }}
           </h3>
           <p class="product-description" v-if="product.description">
@@ -29,6 +30,14 @@
             </p>
           </div>
         </div>
+      </div>
+      <div class="product-notes" v-if="data.notes">
+        <ul class="unstyled-list">
+          <li v-for="note in data.notes">
+            <b>{{ note.name }}:</b>
+            <span> {{ note.description }}</span>
+          </li>
+        </ul>
       </div>
     </section>
   </div>
@@ -60,6 +69,10 @@
       justify-content space-between
       align-items center
 
+      .product-group-title {
+        padding-top 60px
+      }
+
       .col-1-2 {
         display flex
         justify-content right
@@ -70,12 +83,20 @@
       }
     }
 
+
     .product-item {
       display flex
       justify-content space-between
 
       .product-name {
         margin 0
+
+        small {
+          width: 37px;
+          color #777
+          text-align right
+          display inline-block
+        }
       }
 
       .product-description {
@@ -98,11 +119,14 @@
       }
 
       .price {
-        font-family monospace
+        font-family 'Roboto Mono', monospace
         font-size 20px
         text-align right
         margin-top 0
       }
+    }
+
+    .product-notes {
     }
   }
 </style>

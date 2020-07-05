@@ -1,5 +1,6 @@
 const raciones = {
   title: 'Raciones',
+  id: 'raciones',
   products: [
     {
       name: 'Zorza',
@@ -57,6 +58,7 @@ const raciones = {
 
 const tapasMarisco = {
   title: 'Tapas de Marisco',
+  id: 'tapas-marisco',
   products: [
     {
       name: 'Gambas a la Plancha',
@@ -92,6 +94,7 @@ const tapasMarisco = {
 
 const tapasVegetales = {
   title: 'Tapas Vegetales',
+  id: 'tapas-vegetales',
   products: [
     {
       name: '½ Huevos Rellenos',
@@ -117,6 +120,7 @@ const tapasVegetales = {
 
 const revueltos = {
   title: 'Revueltos',
+  id: 'revueltos',
   products: [
     {
       name: 'Bacalao',
@@ -135,6 +139,7 @@ const revueltos = {
 
 const tortillas = {
   title: 'Tortillas',
+  id: 'tortillas',
   col1: '2 Raciones',
   col2: '4 Raciones',
   products: [
@@ -168,6 +173,7 @@ const tortillas = {
 
 const entrantes = {
   title: 'Entrantes',
+  id: 'entrantes',
   products: [
     {
       name: 'Almejas a la Marinera',
@@ -231,6 +237,7 @@ const entrantes = {
 
 const pescados = {
   title: 'Pescados',
+  id: 'pescados',
   products: [
     {
       name: 'Merluza a la Romana, Plancha o Cocida',
@@ -269,6 +276,7 @@ const pescados = {
 
 const carnes = {
   title: 'Carnes',
+  id: 'carnes',
   products: [
     {
       name: 'Entrecot de Ternera con Patatas',
@@ -315,6 +323,7 @@ const carnes = {
 
 const arroces_y_pastas = {
   title: 'Arroces y Pastas',
+  id: 'arroces-pastas',
   products: [
     {
       name: 'Paella con Marisco',
@@ -330,6 +339,7 @@ const arroces_y_pastas = {
 
 const bocadillos = {
   title: 'Bocadillos',
+  id: 'bocadillos',
   products: [
     {
       name: 'Lomo',
@@ -436,7 +446,7 @@ const bocadillos = {
   notes: [
     {
       name: 'Mixto',
-      description: 'con queso'
+      description: 'Con queso'
     },
     {
       name: 'Completo',
@@ -446,6 +456,66 @@ const bocadillos = {
       name: 'Triple',
       description: 'Queso, lechuga, tomate, cebolla, huevo frito'
     }
+  ]
+}
+
+const platosCombinados = {
+  title: 'Platos Combinados',
+  id: 'platos-combinados',
+  showIndex: true,
+  products: [
+    {
+      name: 'Milanesa de cerdo, ensalada, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Zorza, 2 huevos, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Chuleta de cerdo, ensalada, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Pechuga plancha, ensalada, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Calamares, ensalada, patatas fritas',
+      price: '12,50'
+    },
+    {
+      name: 'Hamburguesa, ensalada, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Lomo adobado, tortilla francesa, patatas',
+      price: '9,50'
+    },
+    {
+      name: 'Beicon, 2 huevos fritos, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Jamón asado, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: '3 salchichas, 2 huevos, arroz con tomate',
+      price: '8,00'
+    },
+    {
+      name: 'Lomo adobado, 2 huevos, patatas fritas',
+      price: '9,50'
+    },
+    {
+      name: 'Spaghettis con carne o atún',
+      price: '7,50'
+    },
+    {
+      name: 'Chipirones, ensalada, patatas fritas',
+      price: '12,50'
+    },
   ]
 }
 
@@ -459,7 +529,8 @@ const products = {
   pescados,
   carnes,
   arroces_y_pastas,
-  bocadillos
+  bocadillos,
+  platosCombinados
 }
 
 export default products
