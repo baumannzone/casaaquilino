@@ -45,14 +45,21 @@
 
 <script>
   import products from "./products";
+  import wines from "./wines";
 
   export default {
     name: 'CardProducts',
-    data() {
-      return {
-        products
+    props: {
+      type: {
+        type: String,
+        default: 'products'
+      },
+    },
+    computed: {
+      products() {
+        return this.type === 'products' ? products : wines
       }
-    }
+    },
   }
 </script>
 

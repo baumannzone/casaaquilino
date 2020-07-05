@@ -12,6 +12,7 @@ module.exports = {
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Carta', link: '/carta/' },
+      { text: 'Bebidas', link: '/bebidas/' },
       { text: 'Contacto', link: '/contacto/' }
     ],
     smoothScroll: true,
@@ -49,7 +50,7 @@ module.exports = {
          * @host
          * Mandatory, You have to provide the host URL
          */
-        host: 'https://casaaquilino.netlify.com/',
+        host: 'https://casaaquilino.netlify.app/',
         /**
          * @disallowAll
          * Optional: if it's true, all others options are ignored and exclude all robots from the entire server
