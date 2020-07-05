@@ -49,7 +49,7 @@ module.exports = {
          * @host
          * Mandatory, You have to provide the host URL
          */
-        host: 'https://casaaquilino.netlify.app/',
+        host: 'https://casaaquilino.es/',
         /**
          * @disallowAll
          * Optional: if it's true, all others options are ignored and exclude all robots from the entire server
@@ -86,8 +86,11 @@ module.exports = {
     ]
   ],
   head: [
-    ['link', {rel: 'icon', href: `/img/logos/favicon.png`}],
-    ['meta', {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'}],
+    ['link', { rel: 'icon', href: `/img/favicon/favicon.png` }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x18', href: `/img/favicon/apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type: 'image/png', href: `/img/favicon/favicon-32x32.png` }],
+    ['link', { rel: 'icon', type: 'image/png', href: `/img/favicon/favicon-16x16.png` }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' }],
     ['meta', { name: 'theme-color', content: color }],
     ['meta', { prefix: ogprefix, property: 'og:locale', content: 'es_ES' }],
     ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
