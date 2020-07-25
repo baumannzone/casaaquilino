@@ -180,7 +180,7 @@ const entrantes = {
     },
     {
       name: 'Gambas a la Plancha',
-      price: '8,00',
+      price: '8,50',
       description: '12 unidades'
     },
     {
