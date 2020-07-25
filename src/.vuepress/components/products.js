@@ -38,8 +38,7 @@ const raciones = {
     },
     {
       name: 'Pulpo a Feira',
-      price: '15,00',
-      description: 'rebozados en harina'
+      price: '15,00'
     },
     {
       name: 'Sepia a la Plancha',
