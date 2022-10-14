@@ -1,6 +1,6 @@
 let ogprefix = 'og: http://ogp.me/ns#'
 let title = 'Bar Casa Aquilino'
-let description = 'Bar Casa Aquilino - Comida casera, tapas, raciones, platos combinados y vinos tradicionales en A Guarda, Pontevedra - 986 62 72 64'
+let description = 'Bar Casa Aquilino - Cafetería en A Guarda, Pontevedra - 986 62 72 64'
 let color = '#ffa31a'
 
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
     search: false,
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Carta', link: '/carta/' },
+      // { text: 'Carta', link: '/carta/' },
       { text: 'Bebidas', link: '/bebidas/' },
       { text: 'Contacto', link: '/contacto/' }
     ],
